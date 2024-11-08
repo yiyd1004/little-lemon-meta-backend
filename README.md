@@ -87,3 +87,4 @@ The Little Lemon Meta Backend Capstone Project is a comprehensive web applicatio
 - Booking API
   - http://127.0.0.1:8000/booking/
   - http://127.0.0.1:8000/booking/tables/
+  - http://localhost:8000/restaurant/bookings/
