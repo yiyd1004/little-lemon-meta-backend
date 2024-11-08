@@ -33,7 +33,15 @@ The Little Lemon Meta Backend Capstone Project is a comprehensive web applicatio
     ```
 
 4. Set up the MySqlL database and configure the database settings in `settings.py`.
-5. Apply migrations using the following command:
+
+5. Create database
+
+    ```
+    mysql -u root -p
+    CREATE DATABASE LittleLemon
+    ```
+
+7. Apply migrations using the following command:
    
    ```
    python manage.py makemigrations
@@ -45,7 +53,7 @@ The Little Lemon Meta Backend Capstone Project is a comprehensive web applicatio
    python3 manage.py migrate
    ```
    
-7. Create a superuser for the Django admin:
+8. Create a superuser for the Django admin:
    
    ```
    python manage.py createsuperuser
@@ -65,7 +73,7 @@ The Little Lemon Meta Backend Capstone Project is a comprehensive web applicatio
    python3 manage.py runserver
    ```
    
-11. Access the application in your web browser at http://localhost:8000/.
+10. Access the application in your web browser at http://localhost:8000/.
 
 ## Path
 
